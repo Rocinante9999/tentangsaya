@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Vei Akira — Junior Programmer / Web Developer portfolio.">
+<title>Naja Ardiansyah - Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#s1"><span>Naja Ardiansyah</span></a>
+  <div class="top-center"><span id="slideNow">01</span><span class="slash">/</span><span id="slideTotal">08</span></div>
+  <nav class="desktop-nav"><a href="#s1">Home</a><a href="#s2">About</a><a href="#s3">Work</a><a href="#s4">Infinite Saga</a><a href="#s5">Experience</a><a href="#s6">Skills</a><a href="#s7">Contact</a></nav>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+</header>
+<aside class="mobile-menu" id="mobileMenu">
+  <a href="#s1">Home</a><a href="#s2">About</a><a href="#s3">Selected Work</a><a href="#s4">Infinite Saga</a><a href="#s5">Experience</a><a href="#s6">Skills</a><a href="#s7">What I Want Next</a><a href="#s7">Contact</a>
+</aside>
+<div class="dots" id="dots"></div>
+<main class="rail" id="rail">
+<section class="slide hero" id="s1" data-accent="#a7ff32">
+ <div class="ambient orb-a"></div><div class="ambient orb-b"></div><div class="grid"></div><div class="grain"></div>
+ <div class="content hero-content">
+   <p class="kicker"></p>
+   <h1>BUILD.<br><span>BREAK.</span><br>REBUILD.</h1>
+   <p class="lead">Saya membangun web applications, bots, game systems dan technical experiments</p>
+   <div class="actions"><a class="btn primary" href="#s3">Explore my work <b>→</b></a><a class="btn ghost" href="#s8">Contact <b>↗</b></a></div>
+   <div class="chips"><span>PHP / Laravel</span><span>Node.js</span><span>Python / Flask</span><span>MySQL</span></div>
+ </div>
+ <div class="hero-art"><div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div><div class="hero-core"><strong>∞</strong><small>BUILD LOOP</small></div><span class="float f1">LARAVEL</span><span class="float f2">NODE</span><span class="float f3">PYTHON</span></div>
+ <div class="swipe-hint"><span>SCROLL</span><i></i><span>SWIPE</span></div>
+</section>
+
+<section class="slide" id="s2" data-accent="#7c5cff">
+ <div class="bg-gradient about-bg"></div><div class="grain"></div>
+ <div class="content grid2 about-grid">
+  <div><p class="kicker">01 / ABOUT ME</p><h2 class="title">From hardware<br>to software.</h2><p class="lead">Mahasiswa tingkat akhir S1 Teknik Elektro dengan peminatan Teknologi Informasi, memiliki latar belakang TKJ serta pengalaman bertahun-tahun dalam mengembangkan berbagai proyek untuk komunitas, klien, rekan, maupun tugas perkuliahan.</p></div>
+  <div class="about-stack"><div class="about-card"><span>01</span><strong>Penasaran / Kepo</strong><p>Saya senang memahami cara kerja berbagai hal.<br>Komputer, server, kode, elektronik, dan sistem permainan.</p></div><div class="about-card"><span>02</span><strong>Otodidak</strong><p>Pemrograman bermula sebagai cara untuk mendapatkan penghasilan tambahan selama masa COVID. Hal itu kemudian menjadi kegiatan yang benar-benar saya nikmati.</p></div><div class="about-card"><span>03</span><strong>Multidisiplin</strong><p>Pengalaman saya mencakup pengembangan perangkat lunak, server, jaringan, perangkat keras, elektronika, dan pekerjaan kreatif.</p></div></div>
+ </div>
+ <div class="side-note">TKJ → ELECTRICAL ENGINEERING → SOFTWARE<br><em>still learning, still building.</em></div>
+</section>
+
+<section class="slide" id="s3" data-accent="#33d6ff">
+ <div class="bg-gradient work-bg"></div><div class="grain"></div>
+ <div class="content">
+  <p class="kicker">02 / SELECTED WORK</p><h2 class="title">Beberapa<br>Project yang dibuat.</h2>
+  <div class="work-grid">
+   <a class="work-card featured" href="https://github.com/Rocinante9999" target="_blank"><div class="work-visual eproctor"><div class="scanline"></div><div class="face-box">FACE VERIFIED</div><div class="codebits">PYTHON<br>FLASK<br>FACE ENCODING<br>MYSQL</div></div><div class="work-info"><span>2026 · THESIS</span><h3>E-Proctoring</h3><p>Face verification system using Python/Flask + Laravel.</p><b>VIEW CASE →</b></div></a>
+   <a class="work-card" href="https://top.gg/bot/1446084455994495007" target="_blank" rel="noreferrer"><div class="work-visual saga"><span class="pixel">RPG</span><span class="saga-title">INFINITE<br>SAGA</span><span class="mini-ui">NODE.JS · DISCORD</span></div><div class="work-info"><span>2025 · PERSONAL</span><h3>Infinite Saga</h3><p>Discord RPG and card mini-game built with Node.js.</p><b>VISIT PROJECT ↗</b></div></a>
+   <a class="work-card" href="#s5"><div class="work-visual web"><span>&lt;/&gt;</span><div class="browser-lines"><i></i><i></i><i></i><i></i></div></div><div class="work-info"><span>2021—PRESENT · FREELANCE</span><h3>Web Projects</h3><p>Community sites, landing pages and small web solutions.</p><b>MORE →</b></div></a>
+  </div>
+ </div>
+</section>
+
+<section class="slide" id="s4" data-accent="#ff3d81">
+ <div class="bg-gradient saga-bg"></div><div class="grain"></div>
+ <div class="content grid2 case-grid">
+  <div><p class="kicker">03 / PROJECT CASE</p><h2 class="title">Infinite<br>Saga.</h2><p class="lead">Sebuah proyek RPG Discord yang bermula dari proyek bot sebelumnya. Saya ingin melihat sejauh mana ide tersebut bisa dikembangkan, jadi saya merancang ulang konsepnya menjadi sistem permainan yang lebih besar.</p><div class="chips"><span>Node.js</span><span>Discord API</span><span>RPG Systems</span><span>Game Logic</span></div><div class="actions"><a class="btn primary" href="https://top.gg/bot/1446084455994495007" target="_blank" rel="noreferrer">Open project ↗</a></div></div>
+  <div class="case-board"><div class="window"><header><span></span><span></span><span></span><b>INFINITE SAGA</b></header><div class="fake-screen"><div class="avatar"><img src="https://files.catbox.moe/imzmgb.gif" alt="Avatar" class="avatar"></div><div class="bars"><i></i><i></i><i></i></div><div class="cards"><span>BATTLE</span><span>INVENTORY</span><span>QUEST</span></div></div></div><div class="case-tags"><span>01 / GAMEPLAY</span><span>02 / SYSTEM DESIGN</span><span>03 / ITERATION</span></div></div>
+ </div>
+</section>
+
+<section class="slide" id="s5" data-accent="#ffd34d">
+ <div class="bg-gradient exp-bg"></div><div class="grain"></div>
+ <div class="content grid2 exp-grid">
+  <div><p class="kicker">04 / EXPERIENCE</p><h2 class="title">Not everything<br>was a job.</h2><p class="lead">Sebagian besar pengalaman saya diperoleh dari membangun sesuatu secara mandiri, membantu komunitas, serta mengawal proyek mulai dari tahap "apakah ini bisa dilakukan?" hingga "oke, ini berhasil."</p></div>
+  <div class="timeline">
+   <article><time>2019 — NOW</time><div><h3>Veskai Community</h3><p>Founder / owner. Mengembangkan dan mengelola komunitas dengan lebih dari 2.600 anggota, mencakup situs web, bot, server, dan operasional teknis.</p></div></article>
+   <article><time>2022 — 2023</time><div><h3>United Island Freeroam</h3><p>Game Administrator for SA-MP. Handled player ban appeals, evidence review and false-ban cases.</p></div></article>
+   <article><time>2021 — NOW</time><div><h3>Freelance Web Development</h3><p>Membangun situs web komunitas, halaman landas (landing page), dan situs portofolio untuk teman serta anggota komunitas.</p></div></article>
+   <article><time>2026</time><div><h3>E-Proctoring Thesis</h3><p>Mengembangkan proyek akademik yang mengintegrasikan Python/Flask, Laravel, MySQL, dan verifikasi wajah.</p></div></article>
+  </div>
+ </div>
+</section>
+
+<section class="slide" id="s6" data-accent="#7cffb5">
+ <div class="bg-gradient skill-bg"></div><div class="grain"></div>
+ <div class="content"><p class="kicker">05 / TOOLBOX</p><h2 class="title">Apa yang saya gunakan<br>untuk build.</h2>
+  <div class="skill-grid">
+   <div class="skill-column"><h3>PROGRAMMING</h3><div class="skill-line"><b>PHP / Laravel</b><span>WEB · BACKEND</span></div><div class="skill-line"><b>JavaScript / Node.js</b><span>BOTS · BACKEND</span></div><div class="skill-line"><b>Python / Flask</b><span>BACKEND · CV</span></div><div class="skill-line"><b>MySQL / SQL</b><span>DATABASE</span></div></div>
+   <div class="skill-column"><h3>TECHNICAL</h3><div class="skill-line"><b>Linux / Servers</b><span>INFRASTRUCTURE</span></div><div class="skill-line"><b>Networking</b><span>TKJ · SERVERS</span></div><div class="skill-line"><b>OpenCV / Face Recognition</b><span>COMPUTER VISION</span></div><div class="skill-line"><b>PC Assembly</b><span>HARDWARE</span></div></div>
+   <div class="skill-column"><h3>CREATIVE</h3><div class="skill-line"><b>Adobe Photoshop</b><span>BANNERS · DESIGN</span></div><div class="skill-line"><b>Adobe Premiere Pro</b><span>VIDEO EDITING</span></div><div class="skill-line"><b>Basic Electronics</b><span>DIY · HARDWARE</span></div></div>
+  </div>
+ </div>
+</section>
+
+<!-- <section class="slide" id="s7" data-accent="#ff6b4a">
+ <div class="bg-gradient next-bg"></div><div class="grain"></div>
+ <div class="content next-content"><p class="kicker">06 / WHAT'S NEXT</p><h2 class="title">I want to build<br>games for real.</h2><p class="lead">The next chapter is not about choosing between “programmer” and “game developer”. It is about using my first professional role to sharpen the fundamentals: backend, databases, systems, teamwork — then carrying those skills into game development.</p><div class="route"><span>01</span><b>Professional programming</b><i>→</i><span>02</span><b>Deepen software fundamentals</b><i>→</i><span>03</span><b>Game industry</b></div><div class="quote">“If I can spend hours building it without being told to,<br>that's probably where I should be going.”</div></div>
+</section> -->
+
+<section class="slide contact" id="s7" data-accent="#a7ff32">
+ <div class="ambient contact-orb"></div><div class="grid"></div><div class="grain"></div>
+ <div class="content contact-content"><p class="kicker">06 / CONTACT</p><h2 class="title">LET'S<br>BUILD.</h2><p class="lead">Terbuka terhadap peluang pemrograman, proyek menarik, serta diskusi seputar gim, perangkat lunak, dan teknologi.</p><a class="email" href="mailto:najaardiansyah@gmail.com">najaardiansyah@gmail.com <span>↗</span></a><div class="socials"><a href="https://github.com/Rocinante9999" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://infinitesaga.xyz/" target="_blank" rel="noreferrer">Infinite Saga ↗</a></div></div><div class="contact-word">ARDI</div>
+</section>
+</main>
+<footer><span>© 2026 Naja Ardiansyah</span><span>PROGRAMMER / BUILDER</span></footer>
+<script src="app.js"></script>
+</body></html>
